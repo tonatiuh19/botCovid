@@ -1,0 +1,61 @@
+{
+  "id": "543e82e5-8f93-4de1-8658-5f121dac2ab0",
+  "name": "Acta de nacimiento",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "title": "Acta de nacimiento",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/z10-696x464.jpg",
+                      "subtitle": "Si no cuentas con ella puedes hacer tu solicitud de Acta de Nacimiento en línea a través de los servicios del Registro Civil.",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "url": "http://www.registro-civil.com.mx/acta-nacimiento",
+                          "title": "Sitio Web"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

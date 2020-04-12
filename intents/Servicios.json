@@ -1,0 +1,75 @@
+{
+  "id": "cfbbdf51-28c2-475e-9335-d81b51cb34c5",
+  "name": "Servicios",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "",
+                "payload": {
+                  "messages": [
+                    {
+                      "attachment": {
+                        "type": "template",
+                        "payload": {
+                          "template_type": "generic",
+                          "image_aspect_ratio": "square",
+                          "elements": [
+                            {
+                              "title": "Si en algún momento quieres hablar con alguien más escribe la palabra Alto, humano, el botón de Ayuda personalizada o comunícate a nuestros teléfonos y con gusto te ayudamos.",
+                              "image_url": "https://rockets.chatfuel.com/img/shirt.png",
+                              "buttons": [
+                                {
+                                  "type": "phone_number",
+                                  "title": "Llamar desde Mexico",
+                                  "payload": "+523338182880"
+                                },
+                                {
+                                  "type": "phone_number",
+                                  "title": "Llamar desde USA",
+                                  "payload": "+18552244234"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2cacde71-0bdb-4469-a740-23d32c33b381",
+  "name": "Familias sin fronteras",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "El programa Familias Sin Fronteras, es un programa del Gobierno del Estado de Jalisco que permite a las personas mayores de 65 años de edad tramitar su visa con el consulado de Estados Unidos en Guadalajara."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "media",
+                  "elements": [
+                    {
+                      "media_type": "image",
+                      "url": "https://www.facebook.com/degollado.turismo/photos/basw.AbrecMUq3Sne0nVPGf8u-FrTYsPq-JGD2bIwXCDAd8zvSymIQRjZFbKBRMQufsOk1NHc-6L4_TOE2ILuPmUXBWT9XRZ31DtHnczL3_O3RW8Vr3MnNBqfaTHf0c-vHdnPalY4xJCYxUfsDFd9wYQV117b7QheRbsM3aBqthmHjlL2Aw.1899721057007153.1291589160956468.1261337303981654.1302034476578603.980348118747242.1472375252814121/1899721057007153/?type\u003d1\u0026opaqueCursor\u003dAboKCvO2HFKTBtrfIv7EQQgwJgR9pEK-a_W3-1wEMnim0C3e5zK5vYa8Mjf3pzwiCgUDJF_A4yWOucPTRuQ0H25HXcJx0wrx0yVMIZJOQ9mnl7j6vssXPUqputOVq5ODf0RAHlc4EAm6TuoCcVhGQZ6MdmlwwuE-JeaZtNe3noEziBZPOQpQsQn7lYn7kOmYA82AG4oU47DbcV73fZc1hBvKXAtaHIzCyIGzQTVQT6Jbjn7_BZF6CbDV1lHghJLb4Vys68cvtGuJ4kKpXXySKaTt26_0ZocjT9UuCa9z_gQts1L7pzLCg76Ke_NyJn4GWOH5vzP_i2AtF6beqZZfF9ZPLhmlMLTiurKUy_FUptv8Y1AfItQYdWikhuhS9aKxfMsCXHNVWVtdebzD-oLWG0z4NlRLwfRqpitWIc7rj3Bokoos32_HyKerZASHyPDGucAaFnpkk5KURQwBeW1v_knAmEKGJKEF2BuJTZ_S6xn73dpvRi6OoWuh5UFH2Ss-9HfNggkrjeYPpuIU8EtywxWzch0Og6SGTTaKNGjlqLrOdV0z3kXSPzaQY4CMX3Wvw2fZV-kg6a5hfhZUWq_3jf6eJ9V5VO3GOyllIq3OgU47VHwpac54f_spWSf_Fm80-R60Yg9CTGrqDWnKgZIOoOQata03zPrQa70Nd0vf2jFGWg\u0026theater",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Aplicar",
+                          "url": "http://soyde.jalisco.gob.mx/formulario-familia-sin-fronteras"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

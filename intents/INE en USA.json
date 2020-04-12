@@ -1,0 +1,79 @@
+{
+  "id": "05844250-9bd3-48b9-9fbc-982f234ef4be",
+  "name": "INE en USA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Muy bien, en la siguiente imagen podrás ver 4 sencillos pasos a seguir si necesitas obtener tu credencial para votar si estas en Estados Unidos. 👇"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://alan.chat/clients/IJAMI/images/pasos_credencial_USA.png",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Para comenzar el tramite, da click en el siguiente botón:",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "http://portalanterior.ine.mx/archivos2/portal/credencial/extranjero/",
+                      "title": "Tramitar credencial"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

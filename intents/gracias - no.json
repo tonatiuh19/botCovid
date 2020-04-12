@@ -1,0 +1,43 @@
+{
+  "id": "37e2348b-3f67-4da1-942a-10b58af8eb6b",
+  "parentId": "dc97fe06-3f75-4983-b6cf-4d8be70be4a9",
+  "rootParentId": "dc97fe06-3f75-4983-b6cf-4d8be70be4a9",
+  "name": "gracias - no",
+  "auto": true,
+  "contexts": [
+    "gracias-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gracias.gracias-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Sin problema. Estaré por aquí en caso de que cambies de opinión ;)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

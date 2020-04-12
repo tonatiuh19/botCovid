@@ -1,0 +1,79 @@
+{
+  "id": "4c9488a6-b83a-419f-873f-c47079eb1484",
+  "name": "Pasaporte en USA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Muy bien, en la siguiente imagen podrás ver los pasos a seguir si necesitas obtener tu pasaporte en Estados Unidos. 👇"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://alan.chat/clients/IJAMI/images/RequisitosPasaporte.png",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Para comenzar el tramite, da click en el siguiente botón:",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "https://www.gob.mx/tramites/migracion-visa-y-pasaporte",
+                      "title": "Obtener aqui"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,86 @@
+{
+  "id": "8bf27f51-4184-4db6-9d16-43e0ee3ea54e",
+  "name": "Apoyo a repatriados",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://alan.chat/clients/IJAMI/images/Apoyoarepatriados.jpg",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "title": "Da click en la opción que quieres saber más.",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "url": "https://info.jalisco.gob.mx/gobierno/programas/10388",
+                          "title": "Fondo de Apoyo"
+                        },
+                        {
+                          "type": "web_url",
+                          "url": "https://www.empleo.gob.mx/",
+                          "title": "Bolsa de trabajo"
+                        },
+                        {
+                          "type": "phone_number",
+                          "title": "Llamar",
+                          "payload": "+523338182800"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

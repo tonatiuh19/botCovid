@@ -1,0 +1,77 @@
+{
+  "id": "69d0bb58-3c3d-4c6b-abd3-f222e37127aa",
+  "name": "Conoce tus derechos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "image",
+                "payload": {
+                  "url": "http://alan.chat/clients/IJAMI/images/Conocetusderechos.jpg",
+                  "is_reusable": true
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "¿Te fue util esta informacion?",
+                  "buttons": [
+                    {
+                      "type": "postback",
+                      "title": "Si",
+                      "payload": "Calidad"
+                    },
+                    {
+                      "type": "postback",
+                      "title": "No",
+                      "payload": "Calidad"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

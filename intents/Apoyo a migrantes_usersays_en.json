@@ -1,0 +1,24 @@
+[
+  {
+    "id": "c497b8d6-fe65-411d-b93a-a389ad2cbaca",
+    "data": [
+      {
+        "text": "Fondo ",
+        "userDefined": false
+      },
+      {
+        "text": "de",
+        "alias": "geo-state-us",
+        "meta": "@sys.geo-state-us",
+        "userDefined": false
+      },
+      {
+        "text": " apoyo a migrantes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

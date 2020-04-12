@@ -1,0 +1,152 @@
+{
+  "id": "49b87835-a4f2-44a9-a7b4-bc649f0300f4",
+  "name": "Menú principal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "generic",
+                  "elements": [
+                    {
+                      "title": "¿Como obtener tus documentos",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/jaliscosinfronteras.jpg",
+                      "subtitle": "Acta de nacimiento, matricula consular, credencial para votar, pasaporte y más.. ",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "title": "Acta de nacimiento",
+                          "payload": "Acta de nacimiento"
+                        },
+                        {
+                          "type": "postback",
+                          "title": "Busco otro trámite",
+                          "payload": "Programas a repatriados"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "¿Acabas de regresar a México o planeas hacerlo?",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/DDGthS_WsAAIHsq.jpg",
+                      "subtitle": "Elige está opción si buscas apoyo para repatriados o planificar tu retorno.",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "title": "Planifica tu retorno",
+                          "payload": "Planea tu retorno"
+                        },
+                        {
+                          "type": "postback",
+                          "title": "Apoyo a repatriados",
+                          "payload": "Apoyo a repatriados"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "¿Buscas otro tipo de servicio? ¡Te podemos ayudar!",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/ProgramaServicios.jpg",
+                      "subtitle": "Comunícate a nuestros teléfonos y con gusto platicamos.",
+                      "buttons": [
+                        {
+                          "type": "phone_number",
+                          "title": "Llamar desde Mexico",
+                          "payload": "+523338182880"
+                        },
+                        {
+                          "type": "postback",
+                          "title": "Llamar desde EUA",
+                          "payload": "Centros Jalisco"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "¿Cuáles son tus derechos?",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/knowyourrights.png",
+                      "subtitle": "Todos tienen derechos fundamentales, sin importar quien sea Presidente.",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "title": "Conoce tus derechos",
+                          "payload": "Conoce tus derechos"
+                        },
+                        {
+                          "type": "postback",
+                          "title": "Me detuvo la policia",
+                          "payload": "Detenido por la policia"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "¿Qué hacer si te detiene la policia?",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/deportacion00.png",
+                      "subtitle": "- Esquema de primeros auxilios a Migrantes retornados.",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "title": "¿Detenido?",
+                          "payload": "Detenido por la policia"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Preguntas frecuentes",
+                          "url": "http://www.univision.com/noticias/inmigracion/tienes-dudas-sobre-tus-derechos-como-inmigrante-consultalas-en-nuestra-herramienta-interactiva",
+                          "webview_height_ratio": "full"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Programas de Apoyo del Instituto para ti.",
+                      "image_url": "http://alan.chat/clients/IJAMI/images/convocatoriafamilias.png",
+                      "subtitle": "- Esquema de primeros auxilios a Migrantes retornados.",
+                      "buttons": [
+                        {
+                          "type": "postback",
+                          "title": "Fondo Apoyo Migrantes",
+                          "payload": "Fondo de apoyo a migrantes"
+                        },
+                        {
+                          "type": "postback",
+                          "title": "Familia sin fronteras",
+                          "payload": "Familia sin fronteras"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "e2ec3212-8065-4784-a3ba-8d025c2e2f7f",
+  "name": "Carta de origen",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "El objetivo de la Carta de Origen o carta de Identidad, es proporcionar un documento oficial de identificación a cualquier ciudadano mexicano residente en el extranjero."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Podrás conocer a fondo los pasos necesarios para tu Carta de Origen. 👇",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "https://consulmex.sre.gob.mx/sanantonio/index.php/avisos/80-carta-de-identidad",
+                      "title": "Realizar tramite"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

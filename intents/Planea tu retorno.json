@@ -1,0 +1,55 @@
+{
+  "id": "0b817547-dc3c-4073-ac06-7927cb427f6e",
+  "name": "Planea tu retorno",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Muy bien, consulta la guía para saber cómo retener tus pertenencias y tus derechos antes de regresar a México.",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "url": "http://mexicanosenelexterior.condusef.gob.mx/PDF-s/cuadernillos-videos/cuadernillo-migrantes-en-baja.pdf",
+                      "title": "Clic Aquí"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

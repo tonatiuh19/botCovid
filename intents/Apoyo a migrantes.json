@@ -1,0 +1,75 @@
+{
+  "id": "076394bf-9724-4ee8-b1bb-6c268c208620",
+  "name": "Apoyo a migrantes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80689bfe-1a51-4056-8ddc-30e5e7d5520c",
+          "required": false,
+          "dataType": "@sys.geo-state-us",
+          "name": "geo-state-us",
+          "value": "$geo-state-us",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Muy bien, consulta la guía para saber cómo retener tus pertenencias y tus derechos antes de regresar a México."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "button",
+                  "text": "Dando click en el botón \u0027Consultar Guía\u0027 podrás conocer cómo retener tus pertenencias y tus derechos antes de regresar a México.  👇",
+                  "buttons": [
+                    {
+                      "type": "web_url",
+                      "title": "Consultar guía",
+                      "url": "https://info.jalisco.gob.mx/gobierno/programas/10388"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
