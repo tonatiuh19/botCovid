@@ -1,0 +1,64 @@
+{
+  "id": "a21c77cd-dd05-46e4-a1d0-e4f8ad11020e",
+  "parentId": "73af94d7-c36b-4a41-96d1-b8cb605cae51",
+  "rootParentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "No - tengo los ojos irritados",
+  "auto": true,
+  "contexts": [
+    "No-TengoFiebre-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EmpezarTest.EmpezarTest-custom.No-TengoFiebre-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Analizando..."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "Podrias tener un Resfriado comun",
+          "subtitle": "De cualquier manera te recomendamos consultar a un medico",
+          "imageUrl": "https://diario16.com/wp-content/uploads/2019/09/1H.jpg",
+          "buttons": [
+            {
+              "text": "Volver a Empezar",
+              "postback": "Empezar Test"
+            },
+            {
+              "text": "Necesito un Doctor"
+            },
+            {
+              "text": "Necesito un Doctor"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

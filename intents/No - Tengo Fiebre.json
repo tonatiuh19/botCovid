@@ -1,0 +1,63 @@
+{
+  "id": "73af94d7-c36b-4a41-96d1-b8cb605cae51",
+  "parentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "rootParentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "No - Tengo Fiebre",
+  "auto": true,
+  "contexts": [
+    "EmpezarTest-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EmpezarTest.EmpezarTest-custom",
+      "affectedContexts": [
+        {
+          "name": "No-TengoFiebre-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Siguiente :)"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "Observate en un espejo, ¿tienes los ojos irritados?",
+          "buttons": [
+            {
+              "text": "Si",
+              "postback": "Si - tengo los ojos irritados"
+            },
+            {
+              "text": "No",
+              "postback": "[NoFiebre] No - tengo los ojos irritados"
+            },
+            {
+              "text": "No - tengo los ojos irritados"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "14438872-7cbf-4577-828e-6e34ef3e7f03",
+  "parentId": "4144cf45-c1a7-4ad9-b1ae-e781ab9e3f61",
+  "rootParentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "Si - Experiemento falta de aire",
+  "auto": true,
+  "contexts": [
+    "Si-TengoFiebre-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EmpezarTest.EmpezarTest-custom.Si-TengoFiebre-custom",
+      "affectedContexts": [
+        {
+          "name": "Si-Experiementofaltadeaire-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Suficiente :)"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Tu resultado es:"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "Podrias tener Covid 19",
+          "subtitle": "Acude de inmediato con un especialista",
+          "buttons": [
+            {
+              "text": "Consulta un Medico",
+              "postback": "Necesito un Doctor"
+            },
+            {
+              "text": "Indicaciones del Gobierno",
+              "postback": "https://coronavirus.gob.mx/"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

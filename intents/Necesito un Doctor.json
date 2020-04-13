@@ -1,0 +1,174 @@
+{
+  "id": "4611af24-ddf9-4dae-a490-68bc9b567f84",
+  "name": "Necesito un Doctor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "482da3a0-70fb-499d-882e-8e959cffe708",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cual es tu primer nombre?"
+            },
+            {
+              "lang": "es",
+              "value": "Necesito tu primer nombre"
+            },
+            {
+              "lang": "es",
+              "value": "Por favor escribe tu primer nombre"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8fcc7437-f591-432a-9d9d-79b87a86cc62",
+          "required": true,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cual es tu apellido?"
+            },
+            {
+              "lang": "es",
+              "value": "Necesito tu apellido"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "489dcd76-bfcd-471b-b369-7d7367672b63",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Que dia necesitas tu consulta?"
+            },
+            {
+              "lang": "es",
+              "value": "¿Para que dia necesitas tu consulta?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c61f68a0-e3ab-426e-b970-ed97c1a0d13c",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Para que hora necesitas tu consulta?"
+            },
+            {
+              "lang": "es",
+              "value": "¿A que hora necesitas tu consulta?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Tu consulta:"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "template_type": "receipt",
+                  "recipient_name": "Stephane Crozatier",
+                  "order_number": "12345678902",
+                  "currency": "USD",
+                  "payment_method": "Visa 2345",
+                  "order_url": "http://petersapparel.parseapp.com/order?order_id\u003d123456",
+                  "timestamp": "1428444852",
+                  "address": {
+                    "street_1": "",
+                    "street_2": "",
+                    "city": "",
+                    "postal_code": "",
+                    "state": "",
+                    "country": ""
+                  },
+                  "summary": {
+                    "total_cost": 50.0
+                  },
+                  "adjustments": [
+                    {
+                      "name": "Consulta Medica",
+                      "amount": 50.0
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "title": "Consulta con medico especialista",
+                      "subtitle": "Video llamada",
+                      "quantity": 1.0,
+                      "price": 50.0,
+                      "currency": "MXN",
+                      "image_url": "http://petersapparel.parseapp.com/img/whiteshirt.png"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

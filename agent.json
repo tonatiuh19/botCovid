@@ -1,6 +1,6 @@
 {
   "description": "",
-  "language": "en",
+  "language": "es",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
@@ -8,11 +8,13 @@
   "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": false,
-    "project": "imji-51c7b",
+    "project": "covid-burcqn",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "14438872-7cbf-4577-828e-6e34ef3e7f03"
+    ],
     "oAuthLinking": {
       "required": false,
       "providerId": "",
@@ -29,7 +31,7 @@
     "autoPreviewEnabled": false,
     "isDeviceAgent": false
   },
-  "defaultTimezone": "America/New_York",
+  "defaultTimezone": "America/Chicago",
   "webhook": {
     "url": "",
     "username": "",
@@ -43,7 +45,7 @@
   "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
   "supportedLanguages": [],
-  "onePlatformApiVersion": "v1legacy",
+  "onePlatformApiVersion": "v2",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": -0.4,

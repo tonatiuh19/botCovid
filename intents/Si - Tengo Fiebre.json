@@ -1,0 +1,66 @@
+{
+  "id": "4144cf45-c1a7-4ad9-b1ae-e781ab9e3f61",
+  "parentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "rootParentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "Si - Tengo Fiebre",
+  "auto": true,
+  "contexts": [
+    "EmpezarTest-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "EmpezarTest.EmpezarTest-custom",
+      "affectedContexts": [
+        {
+          "name": "Si-TengoFiebre-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "speech": "Bien :), la siguiente"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Experimentas falta de Aire?",
+          "buttons": [
+            {
+              "text": "Si",
+              "postback": "Si - Experiemento falta de aire"
+            },
+            {
+              "text": "No",
+              "postback": "Si - Experiemento falta de aire"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,6 +1,6 @@
 {
-  "id": "adead686-051b-4de4-a698-faf8f26e352d",
-  "name": "Calidad",
+  "id": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "Empezar Test",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -8,7 +8,7 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "Calidad-followup",
+          "name": "EmpezarTest-followup",
           "parameters": {},
           "lifespan": 2
         }
@@ -18,13 +18,30 @@
         {
           "type": 0,
           "platform": "facebook",
-          "lang": "en",
+          "lang": "es",
           "condition": "",
-          "speech": "Muchas gracias por compartirnos tu opinión.\n\nTratamos de mejorar en la calidad de nuestro servicio. 😃"
+          "speech": "¡Empezemos!"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Tienes Fiebre?",
+          "buttons": [
+            {
+              "text": "Si",
+              "postback": "Si - Tengo Fiebre"
+            },
+            {
+              "text": "No",
+              "postback": "No - Tengo Fiebre"
+            }
+          ]
         },
         {
           "type": 0,
-          "lang": "en",
+          "lang": "es",
           "condition": "",
           "speech": []
         }

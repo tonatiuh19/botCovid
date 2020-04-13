@@ -1,47 +1,45 @@
 {
-  "id": "c5b29891-5aa9-485f-84b6-47c98e82669e",
-  "name": "Default Welcome Intent",
+  "id": "c9f7775f-4866-4a61-a10d-d2a50ac3de85",
+  "parentId": "73af94d7-c36b-4a41-96d1-b8cb605cae51",
+  "rootParentId": "91360ffc-7aea-4542-826e-33fd972d27dd",
+  "name": "Si - tengo los ojos irritados",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "No-TengoFiebre-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
+      "action": "EmpezarTest.EmpezarTest-custom.No-TengoFiebre-custom",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
-          "type": 4,
+          "type": 0,
           "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "payload": {
-            "facebook": {
-              "get_started": {
-                "payload": "Hola"
-              }
-            }
-          }
+          "speech": "Con eso es suficiente ;)"
         },
         {
           "type": 0,
           "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola!,  Mi nombre es, Alan, soy un asistente virtual que te ayuda a conocer si eres candidato perfecto a tener Covid 19 - Coronavirus."
+          "speech": "Calculando..."
         },
         {
           "type": 1,
           "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "title": "Examen Covid 19 - Coronavirus",
-          "subtitle": "Realiza el simple cuestionario si podrias o no tener el Virus",
-          "imageUrl": "https://www.proprofs.com/quiz-school/topic_images/p18mu6ul1v1lbj1iji1lgls67rrp3.jpg",
+          "title": "Tienes una alergia comun",
+          "subtitle": "De cualquier manera te recomendamos consultar un medico",
+          "imageUrl": "https://img-cdn.hipertextual.com/files/2019/04/hipertextual-alergia-resfriado-que-se-deben-mis-estornudos-2019088176.jpg?strip\u003dall\u0026lossy\u003d1\u0026quality\u003d70\u0026ssl\u003d1",
           "buttons": [
             {
-              "text": "Empezar Test",
-              "postback": "Empezar Test"
+              "text": "Volver a empezar",
+              "postback": "Empezar test"
             },
             {
               "text": "Necesito un Doctor",
@@ -58,11 +56,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []
